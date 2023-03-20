@@ -92,7 +92,7 @@ body{
     justify-content: center;
     margin-top: 35px;
 }
-@media screen and (max-width:378px) {
+@media screen and (max-width:500px) {
     .section-about-wrapper-two{
         display: block;
         flex-direction: column;
@@ -107,6 +107,13 @@ body{
 @media screen and (max-width:576px) {
     .about-wrapper-mini{
       margin-bottom: 150px;
+    }
+}
+@media screen and (max-width:500px) {
+    .about-wrapper-mini{
+      margin-bottom: 150px;
+      flex-direction: column;
+      align-items: center;
     }
 }
 @media screen and (max-width:378px) {
@@ -272,20 +279,26 @@ body{
 }
 @media screen and (max-width:768px) {
     .project__image{
-        width: 175px;
-        height: 175px;
+        max-width: 175px;
+        max-height: 175px;
     }    
 }
 @media screen and (max-width:576px) {
     .project__image{
-        width: 155px;
-        height: 155px;
+        max-width: 155px;
+        max-height: 155px;
+    }    
+}
+@media screen and (max-width:500px) {
+    .project__image{
+        max-width: 135px;
+        max-height: 135px;
     }    
 }
 @media screen and (max-width:378px) {
     .project__image{
-        width: 105px;
-        height: 105px;
+        max-width: 105px;
+        max-height: 105px;
     }    
 }
 .best-project-wrapper{
@@ -563,21 +576,27 @@ body{
     }
 }
 .service-title-site__image{
-    width: 664px;
-    height: 410px;
+    max-width: 664px;
+    max-height: 410px;
     border-radius: 30px;
     margin-top: 50px;
 }
 @media screen and (max-width:576px) {
     .service-title-site__image{
-        width: 500px;
+        max-width: 500px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px) {
+    .service-title-site__image{
+        max-width: 400px;
         text-align: center;
     }
 }
 @media screen and (max-width:378px) {
     .service-title-site__image{
-        width: 300px;
-        height: 200px;
+        max-width: 300px;
+        max-height: 200px;
         text-align: center;
     }
 }
@@ -620,6 +639,11 @@ input[type="email"]{
 @media screen and (max-width:576px) {
     input[type="email"]{
         width: 370px;
+    }
+}
+@media screen and (max-width:500px) {
+    input[type="email"]{
+        width: 200px;
     }
 }
 @media screen and (max-width:378px) {
