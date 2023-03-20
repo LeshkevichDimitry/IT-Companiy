@@ -171,7 +171,7 @@ body{
     text-decoration: none;
     background-color: #4985FF;
     border-radius: 30px;
-    padding: 16px 40px 16px 40px;
+    padding: 13px 20px 13px 20px;
     border: none;
     font-size: 16px;
     text-align: center;
@@ -194,6 +194,16 @@ body{
 @media screen and (max-width:576px) {
     .section-about-button__link-two{
         padding: 14px 30px 14px 30px;
+    }
+}
+@media screen and (max-width:500px) {
+    .section-about-button__link-two{
+        padding: 12px 24px 12px 24px;
+    }
+}
+@media screen and (max-width:378px) {
+    .section-about-button__link-two{
+        padding: 10px 20px 10px 20px;
     }
 }
 .section-about-button__link-two:hover{
@@ -589,7 +599,7 @@ body{
 }
 @media screen and (max-width:500px) {
     .service-title-site__image{
-        max-width: 400px;
+        max-width: 350px;
         text-align: center;
     }
 }
